@@ -94,7 +94,7 @@ $Destino="E:\\Sincronizacion\\Drive\\BackupMySQL\\";
 $DestinoDrive="C:\\Users\\Rony\\Google Drive\\";
 
 $NombreArchivoDirectorio=$DirectorioRaiz.$DirectorioAdicional.".zip";
-echo $DestinoDrive;
+//echo $DestinoDrive;
 shell_exec("copy ".$NombreArchivoDirectorio."  ".$Destino);
 //shell_exec("copy ".$NombreArchivoDirectorio."  ".$DestinoDrive);
 //copy($OUTDIR."../".$DirectorioAdicional.".zip",$Destino);
