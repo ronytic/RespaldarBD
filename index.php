@@ -1,7 +1,6 @@
 <?php
 
 
-
 #############################################
 #
 # Tarea de copia seguridad de todas las bases de datos en MySQL
