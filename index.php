@@ -51,7 +51,7 @@ if(!file_exists($ruta))
 {
 mkdir ($OUTDIR);
 } 
-$BaseDatosNoTomarEncuenta=array("mysql","information_schema","cdcol","phpmyadmin","test","webauth");
+$BaseDatosNoTomarEncuenta=array("mysql","information_schema","cdcol","phpmyadmin","test","webauth","ci");
 // Volcar todas las bases
 while ($database = mysql_fetch_row($q)){
     if (!in_array($database[0],$BaseDatosNoTomarEncuenta))
